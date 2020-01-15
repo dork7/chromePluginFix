@@ -1,0 +1,16 @@
+{
+    "name": "Simple On Page SEO",
+    "version": "1.2",
+    "description": "SEO on page analyzer. Look for keyword density, keyword checker in title and meta tags.",
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+      "browser_action": {
+                "default_popup": "popup.html"
+                 
+         },
+       "permissions": [
+                "activeTab",
+                "storage"
+       ]
+    
+}
